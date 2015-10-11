@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		655CC09C1BC9DB4D003B1093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CC09B1BC9DB4D003B1093 /* AppDelegate.swift */; };
 		655CC09E1BC9DB4D003B1093 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CC09D1BC9DB4D003B1093 /* FirstViewController.swift */; };
-		655CC0A01BC9DB4D003B1093 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CC09F1BC9DB4D003B1093 /* SecondViewController.swift */; };
 		655CC0A31BC9DB4D003B1093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655CC0A11BC9DB4D003B1093 /* Main.storyboard */; };
 		655CC0A51BC9DB4D003B1093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655CC0A41BC9DB4D003B1093 /* Assets.xcassets */; };
 		655CC0A81BC9DB4D003B1093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655CC0A61BC9DB4D003B1093 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		655CC0981BC9DB4D003B1093 /* BitCoinViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CC09B1BC9DB4D003B1093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		655CC09D1BC9DB4D003B1093 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		655CC09F1BC9DB4D003B1093 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		655CC0A21BC9DB4D003B1093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		655CC0A41BC9DB4D003B1093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655CC0A71BC9DB4D003B1093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				655CC09B1BC9DB4D003B1093 /* AppDelegate.swift */,
 				655CC09D1BC9DB4D003B1093 /* FirstViewController.swift */,
-				655CC09F1BC9DB4D003B1093 /* SecondViewController.swift */,
 				655CC0A11BC9DB4D003B1093 /* Main.storyboard */,
 				655CC0A41BC9DB4D003B1093 /* Assets.xcassets */,
 				655CC0A61BC9DB4D003B1093 /* LaunchScreen.storyboard */,
@@ -258,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CC0A01BC9DB4D003B1093 /* SecondViewController.swift in Sources */,
 				655CC09C1BC9DB4D003B1093 /* AppDelegate.swift in Sources */,
 				655CC09E1BC9DB4D003B1093 /* FirstViewController.swift in Sources */,
 			);
@@ -487,6 +483,7 @@
 				655CC0C41BC9DB4D003B1093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		655CC0C51BC9DB4D003B1093 /* Build configuration list for PBXNativeTarget "BitCoinViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +492,7 @@
 				655CC0C71BC9DB4D003B1093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		655CC0C81BC9DB4D003B1093 /* Build configuration list for PBXNativeTarget "BitCoinViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +501,7 @@
 				655CC0CA1BC9DB4D003B1093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
