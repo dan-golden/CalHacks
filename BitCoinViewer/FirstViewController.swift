@@ -65,7 +65,6 @@ class FirstViewController: UITableViewController {
           tableEntry+="\nsell: "
           tableEntry+=symbol+(currency_object["sell"]?.description)!
           TableData.append(tableEntry)
-          print(tableEntry)
         }
       }
     }
